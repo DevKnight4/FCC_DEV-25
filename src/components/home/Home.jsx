@@ -1,9 +1,10 @@
 import React from 'react'
+import EventsTimeline from './EventsTimeline'
 
 const Home = () => {
   return (
     <div className='text-white'>
-      I am Home
+      <EventsTimeline />
     </div>
   )
 }

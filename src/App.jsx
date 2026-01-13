@@ -8,6 +8,7 @@ import Events from './components/events/Events';
 import Team from './components/team/Team';
 import Alumni from './components/alumni/Alumni';
 import Footer from './components/footer/Footer';
+import Contact from './components/contact/Contact';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/team" element={<Team />} />
         <Route path="/alumni" element={<Alumni />} />
+        <Route path="/contact" element={<Contact />} />
 
       </Routes>
 
